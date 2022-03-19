@@ -1,0 +1,23 @@
+{
+	"name" : "khrokalo/database",
+	"description" : "first package",
+	"license" : "proprietary",
+	"version" : "0.1",
+	"authors" : [
+		{
+			"name" : "Oleg Khrokalo",
+			"email" : "o251298@gmail.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.4.0"
+	},
+	"require-dev": {
+		"php" : ">=5.4.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Oleg\\Khrokalo\\" : "src/"
+		}
+	}
+}
